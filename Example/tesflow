@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow Test Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .wide-element {
+      width: 120%; /* Intentional overflow for testing */
+    }
+
+    .nested-container {
+      width: 80%;
+      background-color: #c0c0c0;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Overflow Test Page</h1>
+
+  <div class="container">
+    <p>This is a container with a maximum width of 600px.</p>
+    <div class="wide-element">
+      <p>This element intentionally overflows the container and the viewport width.</p>
+    </div>
+  </div>
+
+  <div class="nested-container">
+    <p>This is a nested container with a width of 80%.</p>
+    <div class="wide-element">
+      <p>This element intentionally overflows the nested container.</p>
+    </div>
+  </div>
+</body>
+</html>
