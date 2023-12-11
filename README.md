@@ -38,11 +38,23 @@ The "ContFlow" is a powerful Visual Studio Code extension designed to streamline
 
 2. Install dependencies:
     
-   ![](<WhatsApp Image 2023-12-06 at 21.07.36.jpeg>)
+      ```bash 
+   npm install 
+   npm install puppeteer
+   npm install cheerio
+   npm install -g typescript
+   npm install --save-dev @types/cheerio
 
 3. Open the project in Visual Studio Code.
 
-4. Press F5 to launch the extension in debug mode.
+4. For compiling Typescript 
+   ```bash
+   tsc
+5. Press F5 to launch the extension in debug mode.
+
+6. After launching extension press ctr+shift+P to open command palette.
+
+7.Run Show Content Overflow Webview 
 
 ### Usage
 
