@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Overflow Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .viewport-overflow {
+      width: 120%;
+      /* Causes viewport width overflow */
+    }
+
+    .container {
+      width: 200px;
+      overflow: hidden;
+    }
+
+    .element-overflow {
+      width: 300px;
+      /* Causes element width overflow within the container */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Content Overflow Test</h1>
+
+  <!-- Viewport width overflow -->
+  <div class="container">
+  <div class="viewport-overflow">
+    Viewport width overflow: Overflow in CSS occurs when an element's content doesn't fit inside the element box. This
+    can happen when an element has a specified height that's too small for the content it contains.
+    <p>Overflow issues can also occur when:
+    <ul>
+      <li>Content is unexpectedly wide</li>
+      <li>A fixed-width element is wider than the viewport</li>
+    </ul>
+    </p>
+
+    <p>To replace the previous overlay property, you can:
+    <ul>
+      <li>Set the body width to the full viewport width (width: 100vw)</li>
+      <li>Set the width overflow hidden</li>
+    </ul>
+    </p>
+  </div></div>
+
+  <hr>
+
+  <!-- Container with width overflow -->
+  <div class="container">
+    <div class="element-overflow">
+      Element width overflow within the container: In CSS, overflow occurs when an element's content doesn't fit within
+      the element's box. This can happen when an element has a specified height that's too small for the content it
+      contains.
+      <p>To set the parent element's overflow to hidden, you can:
+      <ul>
+        <li> Locate the element that's causing the unwanted horizontal scrolling.</li>
+        <li> Select its parent element.</li>
+        <li> Open Style panel > Size.</li>
+        <li> Set Overflow to hidden.</li>
+        <li> Scroll left and right to test whether this has removed your unwanted horizontal scrolling.</li>
+        <li> You can also change the width of a container by adjusting the width property in the CSS for that container.
+        </li>
+      </ul>
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
