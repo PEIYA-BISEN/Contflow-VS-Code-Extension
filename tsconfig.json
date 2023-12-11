@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+	  "module": "CommonJS",
+	  "types": ["node", "cheerio","mocha","puppeteer"],
+	  "target": "ES2022",
+	  "outDir": "./out",
+	  "rootDir": "./src",
+	  "lib": ["ES2022","dom"],
+	  "sourceMap": true,
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "skipLibCheck": true,
+	  "resolveJsonModule": true,
+	  "declaration": true,
+	  "isolatedModules": true
+	},
+	"include": ["src/**/*.ts", "webview/**/*.ts"],
+	"exclude": ["node_modules", "out"]
+  }
+  
