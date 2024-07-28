@@ -17,15 +17,15 @@ The "ContFlow" is a powerful Visual Studio Code extension designed to streamline
 
 4. Responsive Design Guidance: Offers insights and suggestions for responsive design adjustments to optimize the layout for different screen sizes.
 
-5. Seamless Integration: Seamlessly integrates with the VS Code editor, ensuring a smooth workflow for developers without the need to switch between tools.
+5. Seamless Integration: Seamlessly integrates with the VS Code editor, ensuring a smooth workflow for developers without switching between tools.
 
 ## How it Works
 
-1.Detection: The extension employs advanced algorithms to identify content overflow scenarios, particularly those related to viewport width.
+1. Detection: The extension employs advanced algorithms to identify content overflow scenarios, particularly those related to the viewport width.
 
-2.Webview Interaction: Through a webview interface embedded within VS Code, designers receive real-time notifications and insights about overflow conditions.
+2. Webview Interaction: Through a webview interface embedded within VS Code, designers receive real-time notifications and insights about overflow conditions.
 
-3.Responsive Recommendations: The extension provides actionable recommendations to enhance responsive design, assisting developers in making informed adjustments.
+3. Responsive Recommendations: The extension provides actionable recommendations to enhance responsive design, assisting developers in making informed adjustments.
 
 ## Getting Started
 
@@ -50,11 +50,11 @@ The "ContFlow" is a powerful Visual Studio Code extension designed to streamline
 4. For compiling Typescript 
    ```bash
    tsc
-5. Press F5 to launch the extension in debug mode.
+5. Open the extension.ts file. Press F5 or go to the Run and Debug view to launch the extension in debug mode. A new window will open. Select any html file.
 
-6. After launching extension press ctr+shift+P to open command palette.
+6. After launching the extension press ctr+shift+P to open the command palette.
 
-7.Run Show Content Overflow Webview 
+7. Run Show Content Overflow Webview 
 
 ### Usage
 
@@ -65,6 +65,8 @@ The "ContFlow" is a powerful Visual Studio Code extension designed to streamline
 3. The webview panel will display information about detected content overflow issues.
 
 4. Follow the recommendations provided to address the overflow problems.
+
+5. The Example folder contains some test cases that allow users to understand the workings of the ContFlow extension more easily.
 
 ### Contributing
 
